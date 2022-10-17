@@ -27,13 +27,3 @@ document.addEventListener('click', function(event) {
   }
 });
 
-document.addEventListener('click', function(event) {
-  if (event.target.className == 'list__itm' ) { 
-    if(event.target.className == 'list__itm-act' || event.target.className == 'list__itm' ){
-      console.log('f');
-      /* event.target.classList.remove('list__itm-act');
-      event.target.classList.remove('list__itm-col'); */
-    }
-     
-  }
-});

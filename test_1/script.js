@@ -22,8 +22,6 @@ document.addEventListener('click', function(event) {
   if (event.target.className == 'list__itm' ) { 
      event.target.classList.add('list__itm-act');
      event.target.classList.add('list__itm-col');
-  }  else if(event.target.className == 'list__itm-act'){
-    console.log('f');
-  }
+  } 
 });
 
